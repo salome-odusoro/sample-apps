@@ -1,5 +1,7 @@
 package com.interswitch.maven;
 
+import java.time.LocalDateTime;
+
 /**
  * Hello world!
  *
@@ -13,5 +15,8 @@ public class App {
         System.out.printf("%s to %s: \n", "Hello World", upperLowerCase.wordToUpperCase("Hello World"));
         System.out.println("To lower case: ");
         System.out.printf("%s to %s: \n", "Hello World", upperLowerCase.wordToLowerCase("Hello World"));
+        System.out.println();
+        System.out.println("Go home Feature");
+        System.out.printf("Go home by: %s", LocalDateTime.now());
     }
 }
